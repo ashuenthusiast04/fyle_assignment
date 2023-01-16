@@ -1,0 +1,32 @@
+.error-message {
+    color: red;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 700px 700px ;
+    grid-column: 2 ;
+  
+    padding: 10px;
+  }
+  .grid-item {
+   
+   background-color: white;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  #we{
+    color:rgb(4, 62, 84);
+  }
+  .info{
+    position: relative;
+    margin-left: 500px;
+    margin-top: -200px;
+  }
+  .lang{
+    background-color: blue;
+    width: 100px;
+    color: white;
+    border-radius: 1em;
+  }
+  

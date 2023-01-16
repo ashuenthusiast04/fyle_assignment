@@ -1,7 +1,12 @@
+// app-routing.module.ts
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { RepositoryListComponent } from './repository-list.component';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  { path: '', component: RepositoryListComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
